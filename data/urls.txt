@@ -1,0 +1,5 @@
+https://github.com/vladimirvivien/automi
+https://github.com/AsynkronIT/protoactor-go
+https://github.com/monzo/typhon
+https://github.com/Skarlso/go-furnace
+
