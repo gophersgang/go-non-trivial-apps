@@ -28,7 +28,7 @@ The main purpose is reading / learning / teaching.
 - [duosoftware/v6engine](https://github.com/duosoftware/v6engine) - v6 engin libs for go  <br/> ( 2016-10-28 / 846 commits / 2 stars )
 - [erraroo/erraroo](https://github.com/erraroo/erraroo) - backend <br/> ( 2015-10-15 / 151 commits / 0 stars )
 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit) - Custom domains for Go packages <br/> ( 2017-03-08 / 185 commits / 2 stars )
-- [grafana/grafana](https://github.com/grafana/grafana) - The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More <br/> ( 2017-03-09 / 9,910 commits / 2,359 stars )
+- [grafana/grafana](https://github.com/grafana/grafana) - The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More <br/> ( 2017-03-09 / 9,910 commits / 2,360 stars )
 - [humpback/humpback-center](https://github.com/humpback/humpback-center) - humpback backend docker-engine cluster manage. <br/> ( 2017-03-07 / 41 commits / 0 stars )
 - [insionng/zenpress](https://github.com/insionng/zenpress) - Zenpress is a cms system of written in golang <br/> ( 2017-02-18 / 19 commits / 111 stars )
 - [jjosephy/interview](https://github.com/jjosephy/interview) - Interview Feedback API and UX on Go <br/> ( 2016-12-13 / 39 commits / 1 stars )
@@ -40,6 +40,7 @@ The main purpose is reading / learning / teaching.
 - [netlify/netlify-commerce](https://github.com/netlify/netlify-commerce) - A headless e-commerce for JAMstack sites <br/> ( 2017-03-07 / 123 commits / 0 stars )
 - [ory/ladon](https://github.com/ory/ladon) - An access control policy library: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go. <br/> ( 2017-01-21 / 65 commits / 31 stars )
 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd) - Parallel S3 and local filesystem execution tool. <br/> ( 2017-03-09 / 124 commits / 1 stars )
+- [romana/core](https://github.com/romana/core) - Micro services written in Go. <br/> ( 2017-03-08 / 1,200 commits / 6 stars )
 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi) - --- <br/> ( 2017-03-08 / 13 commits / 0 stars )
 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-09 / 128 commits / 3 stars )
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi) - Composable Stream Processing on top of Go Channels! <br/> ( 2016-12-28 / 140 commits / 17 stars )
@@ -56,6 +57,7 @@ The main purpose is reading / learning / teaching.
 - [muesli/beehive](https://github.com/muesli/beehive): 2017-03-08 <br/> A flexible event and agent system with lots of bees 🐝
 - [diyan/assimilator](https://github.com/diyan/assimilator): 2017-03-08 <br/> WIP. An attempt to port minimum valuable subset of Sentry from Python to the Golang
 - [cgrates/cgrates](https://github.com/cgrates/cgrates): 2017-03-08 <br/> Real-time Charging System for Telecom & ISP environments
+- [romana/core](https://github.com/romana/core): 2017-03-08 <br/> Micro services written in Go.
 - [corestoreio/csfw](https://github.com/corestoreio/csfw): 2017-03-07 <br/> CoreStore eCommerce library written in GoLang based on Magento's database structure. Compatible to Magento 1 and 2 | ⚠️ Under full development. DON'T test it! ⚠️ | My magnum opus
 - [humpback/humpback-center](https://github.com/humpback/humpback-center): 2017-03-07 <br/> humpback backend docker-engine cluster manage.
 - [netlify/netlify-commerce](https://github.com/netlify/netlify-commerce): 2017-03-07 <br/> A headless e-commerce for JAMstack sites
@@ -95,6 +97,7 @@ The main purpose is reading / learning / teaching.
 - [Crevax/Elysium](https://github.com/Crevax/Elysium): 4.56 MB<br/>  (0.96 MB git / 3.60 MB code)
 - [jjosephy/interview](https://github.com/jjosephy/interview): 3.24 MB<br/>  (2.02 MB git / 1.22 MB code)
 - [cloudnativego/gogo-service](https://github.com/cloudnativego/gogo-service): 2.87 MB<br/>  (2.82 MB git / 0.04 MB code)
+- [romana/core](https://github.com/romana/core): 2.64 MB<br/>  (1.79 MB git / 0.85 MB code)
 - [Skarlso/go-furnace](https://github.com/Skarlso/go-furnace): 2.56 MB<br/>  (2.07 MB git / 0.50 MB code)
 - [ory/ladon](https://github.com/ory/ladon): 1.15 MB<br/>  (1.02 MB git / 0.13 MB code)
 - [erraroo/erraroo](https://github.com/erraroo/erraroo): 0.84 MB<br/>  (0.31 MB git / 0.53 MB code)
