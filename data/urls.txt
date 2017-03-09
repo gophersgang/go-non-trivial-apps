@@ -1,5 +1,6 @@
 https://github.com/AsynkronIT/protoactor-go
 https://github.com/digitalocean/godo
+https://github.com/grafana/grafana
 https://github.com/monzo/typhon
 https://github.com/Skarlso/go-furnace
 https://github.com/vladimirvivien/automi

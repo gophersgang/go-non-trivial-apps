@@ -28,6 +28,7 @@ The main purpose is reading / learning / teaching.
 - [duosoftware/v6engine](https://github.com/duosoftware/v6engine) - v6 engin libs for go  <br/> ( 2016-10-28 / 846 commits / 2 stars )
 - [erraroo/erraroo](https://github.com/erraroo/erraroo) - backend <br/> ( 2015-10-15 / 151 commits / 0 stars )
 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit) - Custom domains for Go packages <br/> ( 2017-03-08 / 185 commits / 2 stars )
+- [grafana/grafana](https://github.com/grafana/grafana) - The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More <br/> ( 2017-03-09 / 9,910 commits / 2,359 stars )
 - [humpback/humpback-center](https://github.com/humpback/humpback-center) - humpback backend docker-engine cluster manage. <br/> ( 2017-03-07 / 41 commits / 0 stars )
 - [insionng/zenpress](https://github.com/insionng/zenpress) - Zenpress is a cms system of written in golang <br/> ( 2017-02-18 / 19 commits / 111 stars )
 - [jjosephy/interview](https://github.com/jjosephy/interview) - Interview Feedback API and UX on Go <br/> ( 2016-12-13 / 39 commits / 1 stars )
@@ -38,7 +39,7 @@ The main purpose is reading / learning / teaching.
 - [nebulouslabs/sia](https://github.com/nebulouslabs/sia) - Blockchain-based marketplace for file storage <br/> ( 2017-03-03 / 6,408 commits / 76 stars )
 - [netlify/netlify-commerce](https://github.com/netlify/netlify-commerce) - A headless e-commerce for JAMstack sites <br/> ( 2017-03-07 / 123 commits / 0 stars )
 - [ory/ladon](https://github.com/ory/ladon) - An access control policy library: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go. <br/> ( 2017-01-21 / 65 commits / 31 stars )
-- [peakgames/s5cmd](https://github.com/peakgames/s5cmd) - Parallel S3 and local filesystem execution tool. <br/> ( 2017-03-09 / 122 commits / 1 stars )
+- [peakgames/s5cmd](https://github.com/peakgames/s5cmd) - Parallel S3 and local filesystem execution tool. <br/> ( 2017-03-09 / 124 commits / 1 stars )
 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi) - --- <br/> ( 2017-03-08 / 13 commits / 0 stars )
 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-09 / 128 commits / 3 stars )
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi) - Composable Stream Processing on top of Go Channels! <br/> ( 2016-12-28 / 140 commits / 17 stars )
@@ -47,6 +48,7 @@ The main purpose is reading / learning / teaching.
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
+- [grafana/grafana](https://github.com/grafana/grafana): 2017-03-09 <br/> The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd): 2017-03-09 <br/> Parallel S3 and local filesystem execution tool.
 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace): 2017-03-09 <br/> Golang Hosting Solution with CloudFormation and CodeDeploy
 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit): 2017-03-08 <br/> Custom domains for Go packages
@@ -69,7 +71,7 @@ The main purpose is reading / learning / teaching.
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi): 2016-12-28 <br/> Composable Stream Processing on top of Go Channels!
 - [crevax/elysium](https://github.com/crevax/elysium): 2016-12-18 <br/> The API that powers my personal website
 - [jjosephy/interview](https://github.com/jjosephy/interview): 2016-12-13 <br/> Interview Feedback API and UX on Go
-- [duosoftware/v6engine](https://github.com/duosoftware/v6engine): 2016-10-28 <br/> v6 engin libs for go
+- [duosoftware/v6engine](https://github.com/duosoftware/v6engine): 2016-10-28 <br/> v6 engin libs for go 
 - [cloudnativego/gogo-service](https://github.com/cloudnativego/gogo-service): 2016-05-24 <br/> A microservice that allows clients to play the game of Go
 - [yolofy/bulbtransit](https://github.com/yolofy/bulbtransit): 2015-11-15 <br/> Hackathon management software
 - [erraroo/erraroo](https://github.com/erraroo/erraroo): 2015-10-15 <br/> backend
@@ -77,6 +79,7 @@ The main purpose is reading / learning / teaching.
 
 ### By Size
 <!-- SIZE_LIST -->
+- [grafana/grafana](https://github.com/grafana/grafana): 137.57 MB<br/>  (106.14 MB git / 31.43 MB code)
 - [DuoSoftware/v6engine](https://github.com/DuoSoftware/v6engine): 96.18 MB<br/>  (81.75 MB git / 14.44 MB code)
 - [insionng/zenpress](https://github.com/insionng/zenpress): 89.47 MB<br/>  (32.34 MB git / 57.13 MB code)
 - [caicloud/cyclone](https://github.com/caicloud/cyclone): 51.92 MB<br/>  (19.11 MB git / 32.81 MB code)
@@ -85,7 +88,7 @@ The main purpose is reading / learning / teaching.
 - [AsynkronIT/protoactor-go](https://github.com/AsynkronIT/protoactor-go): 14.71 MB<br/>  (14.14 MB git / 0.58 MB code)
 - [diyan/assimilator](https://github.com/diyan/assimilator): 14.51 MB<br/>  (3.44 MB git / 11.07 MB code)
 - [NebulousLabs/Sia](https://github.com/NebulousLabs/Sia): 14.25 MB<br/>  (11.60 MB git / 2.65 MB code)
-- [peakgames/s5cmd](https://github.com/peakgames/s5cmd): 11.16 MB<br/>  (7.43 MB git / 3.74 MB code)
+- [peakgames/s5cmd](https://github.com/peakgames/s5cmd): 11.17 MB<br/>  (7.43 MB git / 3.74 MB code)
 - [muesli/beehive](https://github.com/muesli/beehive): 7.41 MB<br/>  (5.92 MB git / 1.49 MB code)
 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit): 7.16 MB<br/>  (2.76 MB git / 4.40 MB code)
 - [humpback/humpback-center](https://github.com/humpback/humpback-center): 6.59 MB<br/>  (6.50 MB git / 0.09 MB code)
