@@ -137,8 +137,15 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 			content, _ = s.Attr("content")
 		}
 	})
-	parts := strings.SplitN(content, " - ", 2)
-	return parts[1]
+	var parts []string
+	if strings.Contains(content, " - ") {
+		parts = strings.SplitN(content, " - ", 2)
+		content = parts[1]
+	}
+	if strings.Contains(content, "by creating an account on GitHub") {
+		content = " --- "
+	}
+	return content
 }
 
 func (r repoParser) getCommitsCount(doc *goquery.Document) string {
