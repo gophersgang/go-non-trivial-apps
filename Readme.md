@@ -17,10 +17,16 @@ The main purpose is reading / learning / teaching.
 
 ### Projects
 <!-- PROJECTS_LIST -->
-
+- [asynkronit/protoactor-go](https://github.com/asynkronit/protoactor-go) - protoactor-go - Proto Actor - Ultra fast distributed actors for Golang and C# <br/> ( 2017-02-26 )
+- [monzo/typhon](https://github.com/monzo/typhon) - typhon - Go-based RPC framework <br/> ( 2017-03-02 )
+- [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - go-furnace - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-08 )
+- [vladimirvivien/automi](https://github.com/vladimirvivien/automi) - automi - Composable Stream Processing on top of Go Channels! <br/> ( 2016-12-28 )
 <!-- /PROJECTS_LIST -->
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
-
+- 2017-03-08 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace)  <br/> go-furnace - Golang Hosting Solution with CloudFormation and CodeDeploy
+- 2017-03-02 - [monzo/typhon](https://github.com/monzo/typhon)  <br/> typhon - Go-based RPC framework
+- 2017-02-26 - [asynkronit/protoactor-go](https://github.com/asynkronit/protoactor-go)  <br/> protoactor-go - Proto Actor - Ultra fast distributed actors for Golang and C#
+- 2016-12-28 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi)  <br/> automi - Composable Stream Processing on top of Go Channels!
 <!-- /ACTIVITY_LIST -->
