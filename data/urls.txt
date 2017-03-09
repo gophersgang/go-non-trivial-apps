@@ -13,7 +13,6 @@ https://github.com/Crevax/Elysium
 https://github.com/erraroo/erraroo
 https://github.com/menklab/goCMS
 https://github.com/cloudnativego/gogo-service
-https://github.com/gogits/gogs
 https://github.com/gopherpit/gopherpit
 https://github.com/humpback/humpback-center
 https://github.com/jjosephy/interview

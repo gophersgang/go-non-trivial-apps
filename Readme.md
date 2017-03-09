@@ -27,7 +27,6 @@ The main purpose is reading / learning / teaching.
 - [diyan/assimilator](https://github.com/diyan/assimilator) - WIP. An attempt to port minimum valuable subset of Sentry from Python to the Golang <br/> ( 2017-03-08 / 203 commits / 1 stars )
 - [duosoftware/v6engine](https://github.com/duosoftware/v6engine) - v6 engin libs for go  <br/> ( 2016-10-28 / 846 commits / 2 stars )
 - [erraroo/erraroo](https://github.com/erraroo/erraroo) - backend <br/> ( 2015-10-15 / 151 commits / 0 stars )
-- [gogits/gogs](https://github.com/gogits/gogs) - Gogs is a painless self-hosted Git service. <br/> ( 2017-03-09 / 4,540 commits / 2,050 stars )
 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit) - Custom domains for Go packages <br/> ( 2017-03-08 / 185 commits / 2 stars )
 - [humpback/humpback-center](https://github.com/humpback/humpback-center) - humpback backend docker-engine cluster manage. <br/> ( 2017-03-07 / 41 commits / 0 stars )
 - [insionng/zenpress](https://github.com/insionng/zenpress) - Zenpress is a cms system of written in golang <br/> ( 2017-02-18 / 19 commits / 111 stars )
@@ -41,16 +40,15 @@ The main purpose is reading / learning / teaching.
 - [ory/ladon](https://github.com/ory/ladon) - An access control policy library: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go. <br/> ( 2017-01-21 / 65 commits / 31 stars )
 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd) - Parallel S3 and local filesystem execution tool. <br/> ( 2017-03-09 / 121 commits / 1 stars )
 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi) -  ---  <br/> ( 2017-03-08 / 13 commits / 0 stars )
-- [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-09 / 123 commits / 3 stars )
+- [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-09 / 128 commits / 3 stars )
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi) - Composable Stream Processing on top of Go Channels! <br/> ( 2016-12-28 / 140 commits / 17 stars )
 - [yolofy/bulbtransit](https://github.com/yolofy/bulbtransit) - Hackathon management software <br/> ( 2015-11-15 / 8 commits / 0 stars )
 <!-- /PROJECTS_LIST -->
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
-- 2017-03-09 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd)  <br/> Parallel S3 and local filesystem execution tool.
 - 2017-03-09 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace)  <br/> Golang Hosting Solution with CloudFormation and CodeDeploy
-- 2017-03-09 - [gogits/gogs](https://github.com/gogits/gogs)  <br/> Gogs is a painless self-hosted Git service.
+- 2017-03-09 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd)  <br/> Parallel S3 and local filesystem execution tool.
 - 2017-03-08 - [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit)  <br/> Custom domains for Go packages
 - 2017-03-08 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi)  <br/>  --- 
 - 2017-03-08 - [muesli/beehive](https://github.com/muesli/beehive)  <br/> A flexible event and agent system with lots of bees 🐝
