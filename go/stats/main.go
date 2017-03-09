@@ -2,12 +2,18 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
+	"strings"
+)
+
+var (
+	readmeFile = "Readme.md"
 )
 
 func main() {
@@ -23,7 +29,7 @@ func topLevel() {
 			repos = append(repos, repo)
 		}
 	}
-	sort.Sort(reposByFullSize(repos))
+	readmeHandler{}.replaceProjects(repos)
 	for _, repo := range repos {
 		fmt.Println(repo.asString())
 	}
@@ -52,8 +58,20 @@ type repo struct {
 }
 
 func (r repo) asString() string {
-	return fmt.Sprintf("%s: %s MB \n  (%s git / %s code)",
-		r.name,
+	name := strings.Replace(r.name, "src/github.com/", "", -1)
+	return fmt.Sprintf("%s: %s MB\n  (%s MB git / %s MB code)",
+		name,
+		floatAsString(r.fullSize),
+		floatAsString(r.gitSize),
+		floatAsString(r.codeSize),
+	)
+}
+
+func (r repo) asMarkdown() string {
+	name := strings.Replace(r.name, "src/github.com/", "", -1)
+	link := fmt.Sprintf("[%s](%s)", name, "https://github.com/"+name)
+	return fmt.Sprintf("- %s: %s MB<br/>  (%s MB git / %s MB code)",
+		link,
 		floatAsString(r.fullSize),
 		floatAsString(r.gitSize),
 		floatAsString(r.codeSize),
@@ -116,3 +134,31 @@ type reposByFullSize []repo
 func (ris reposByFullSize) Len() int           { return len(ris) }
 func (ris reposByFullSize) Less(i, j int) bool { return ris[i].fullSize > ris[j].fullSize }
 func (ris reposByFullSize) Swap(i, j int)      { ris[i], ris[j] = ris[j], ris[i] }
+
+/*
+	readmeHandler logic
+	rough translation of https://github.com/mindreframer/techwatcher/blob/master/_sh/logic.rb
+*/
+
+type readmeHandler struct{}
+
+func (rh readmeHandler) replaceProjects(repos []repo) {
+	pattern := `(?s)<!-- SIZE_LIST -->(.*)<!-- /SIZE_LIST -->`
+	regexStart := `<!-- SIZE_LIST -->`
+	regexEnd := `<!-- /SIZE_LIST -->`
+
+	sort.Sort(reposByFullSize(repos))
+	lines := []string{}
+	lines = append(lines, regexStart)
+	for _, repo := range repos {
+		lines = append(lines, repo.asMarkdown())
+	}
+	lines = append(lines, regexEnd)
+
+	r := regexp.MustCompile(pattern)
+
+	data, err := ioutil.ReadFile(readmeFile)
+	check(err)
+	res := r.ReplaceAllString(string(data), strings.Join(lines, "\n"))
+	ioutil.WriteFile(readmeFile, []byte(res), 0777)
+}

@@ -143,7 +143,7 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 		content = parts[1]
 	}
 	if strings.Contains(content, "by creating an account on GitHub") {
-		content = " --- "
+		content = "---"
 	}
 	return content
 }
@@ -239,9 +239,9 @@ func (ri repoInfo) MarkdownProject() string {
 }
 
 func (ri repoInfo) MarkdownActivity() string {
-	return fmt.Sprintf("- %s - %s  <br/> %s",
-		ri.lastcommitShort(),
+	return fmt.Sprintf("- %s: %s <br/> %s",
 		ri.mdLink(),
+		ri.lastcommitShort(),
 		ri.description,
 	)
 }
