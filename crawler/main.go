@@ -141,19 +141,11 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 }
 
 func (r repoParser) getCommitsCount(doc *goquery.Document) string {
-	var content string
-	doc.Find(".numbers-summary .commits .num").Each(func(i int, s *goquery.Selection) {
-		content = strings.TrimSpace(s.Text())
-	})
-	return content
+	return r.getSelectorText(doc, ".numbers-summary .commits .num")
 }
 
 func (r repoParser) getStarsCount(doc *goquery.Document) string {
-	var content string
-	doc.Find(".social-count").Each(func(i int, s *goquery.Selection) {
-		content = strings.TrimSpace(s.Text())
-	})
-	return content
+	return r.getSelectorText(doc, ".social-count")
 }
 
 func (r repoParser) getLastcommit(doc *goquery.Document) string {
@@ -187,6 +179,14 @@ func (r repoParser) getLastcommitAjax(doc *goquery.Document) string {
 	url := "https://github.com" + path
 	ajaxDoc := r.urlDoc(url)
 	return r.getLastcommit(ajaxDoc)
+}
+
+func (r repoParser) getSelectorText(doc *goquery.Document, selector string) string {
+	var content string
+	doc.Find(selector).Each(func(i int, s *goquery.Selection) {
+		content = strings.TrimSpace(s.Text())
+	})
+	return content
 }
 
 func (r repoParser) getDoc(url string) *goquery.Document {
