@@ -45,7 +45,7 @@ func printSortedAlpha(repos []repoInfo) {
 	sort.Sort(reposByURL(repos))
 	fmt.Print("\n\n")
 	for _, r := range repos {
-		fmt.Println(r.Markdown())
+		fmt.Println(r.MarkdownProject())
 	}
 }
 
