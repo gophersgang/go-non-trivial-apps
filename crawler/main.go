@@ -137,7 +137,8 @@ func (r repoParser) getDescription(doc *goquery.Document) string {
 			content, _ = s.Attr("content")
 		}
 	})
-	return content
+	parts := strings.SplitN(content, " - ", 2)
+	return parts[1]
 }
 
 func (r repoParser) getCommitsCount(doc *goquery.Document) string {
