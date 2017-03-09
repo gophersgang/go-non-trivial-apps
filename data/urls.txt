@@ -25,3 +25,4 @@ https://github.com/peakgames/s5cmd
 https://github.com/NebulousLabs/Sia
 https://github.com/DuoSoftware/v6engine
 https://github.com/insionng/zenpress
+https://github.com/romana/core
