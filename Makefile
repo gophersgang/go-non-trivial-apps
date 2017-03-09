@@ -4,3 +4,6 @@ run:
 
 crawl:
 	time go run go/crawler/main.go
+
+stats:
+	go run go/stats/main.go
