@@ -1,6 +1,6 @@
 run:
-	time go run downloader/main.go
+	time go run go/downloader/main.go
 
 
 crawl:
-	time go run crawler/main.go
+	time go run go/crawler/main.go
