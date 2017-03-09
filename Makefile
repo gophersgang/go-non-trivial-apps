@@ -7,3 +7,6 @@ crawl:
 
 stats:
 	go run go/stats/main.go
+
+
+all: run crawl stats;
