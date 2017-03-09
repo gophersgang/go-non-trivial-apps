@@ -69,8 +69,38 @@ The main purpose is reading / learning / teaching.
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi): 2016-12-28 <br/> Composable Stream Processing on top of Go Channels!
 - [crevax/elysium](https://github.com/crevax/elysium): 2016-12-18 <br/> The API that powers my personal website
 - [jjosephy/interview](https://github.com/jjosephy/interview): 2016-12-13 <br/> Interview Feedback API and UX on Go
-- [duosoftware/v6engine](https://github.com/duosoftware/v6engine): 2016-10-28 <br/> v6 engin libs for go 
+- [duosoftware/v6engine](https://github.com/duosoftware/v6engine): 2016-10-28 <br/> v6 engin libs for go
 - [cloudnativego/gogo-service](https://github.com/cloudnativego/gogo-service): 2016-05-24 <br/> A microservice that allows clients to play the game of Go
 - [yolofy/bulbtransit](https://github.com/yolofy/bulbtransit): 2015-11-15 <br/> Hackathon management software
 - [erraroo/erraroo](https://github.com/erraroo/erraroo): 2015-10-15 <br/> backend
 <!-- /ACTIVITY_LIST -->
+
+### By Size
+<!-- SIZE_LIST -->
+- [DuoSoftware/v6engine](https://github.com/DuoSoftware/v6engine): 96.18 MB<br/>  (81.75 MB git / 14.44 MB code)
+- [insionng/zenpress](https://github.com/insionng/zenpress): 89.47 MB<br/>  (32.34 MB git / 57.13 MB code)
+- [caicloud/cyclone](https://github.com/caicloud/cyclone): 51.92 MB<br/>  (19.11 MB git / 32.81 MB code)
+- [corestoreio/csfw](https://github.com/corestoreio/csfw): 50.99 MB<br/>  (12.89 MB git / 38.11 MB code)
+- [cgrates/cgrates](https://github.com/cgrates/cgrates): 31.14 MB<br/>  (26.33 MB git / 4.80 MB code)
+- [AsynkronIT/protoactor-go](https://github.com/AsynkronIT/protoactor-go): 14.71 MB<br/>  (14.14 MB git / 0.58 MB code)
+- [diyan/assimilator](https://github.com/diyan/assimilator): 14.51 MB<br/>  (3.44 MB git / 11.07 MB code)
+- [NebulousLabs/Sia](https://github.com/NebulousLabs/Sia): 14.25 MB<br/>  (11.60 MB git / 2.65 MB code)
+- [peakgames/s5cmd](https://github.com/peakgames/s5cmd): 11.16 MB<br/>  (7.43 MB git / 3.74 MB code)
+- [muesli/beehive](https://github.com/muesli/beehive): 7.41 MB<br/>  (5.92 MB git / 1.49 MB code)
+- [gopherpit/gopherpit](https://github.com/gopherpit/gopherpit): 7.16 MB<br/>  (2.76 MB git / 4.40 MB code)
+- [humpback/humpback-center](https://github.com/humpback/humpback-center): 6.59 MB<br/>  (6.50 MB git / 0.09 MB code)
+- [Crevax/Elysium](https://github.com/Crevax/Elysium): 4.56 MB<br/>  (0.96 MB git / 3.60 MB code)
+- [jjosephy/interview](https://github.com/jjosephy/interview): 3.24 MB<br/>  (2.02 MB git / 1.22 MB code)
+- [cloudnativego/gogo-service](https://github.com/cloudnativego/gogo-service): 2.87 MB<br/>  (2.82 MB git / 0.04 MB code)
+- [Skarlso/go-furnace](https://github.com/Skarlso/go-furnace): 2.56 MB<br/>  (2.07 MB git / 0.50 MB code)
+- [ory/ladon](https://github.com/ory/ladon): 1.15 MB<br/>  (1.02 MB git / 0.13 MB code)
+- [erraroo/erraroo](https://github.com/erraroo/erraroo): 0.84 MB<br/>  (0.31 MB git / 0.53 MB code)
+- [menklab/goCMS](https://github.com/menklab/goCMS): 0.58 MB<br/>  (0.47 MB git / 0.11 MB code)
+- [digitalocean/godo](https://github.com/digitalocean/godo): 0.55 MB<br/>  (0.29 MB git / 0.26 MB code)
+- [yolofy/BulbTransit](https://github.com/yolofy/BulbTransit): 0.51 MB<br/>  (0.24 MB git / 0.26 MB code)
+- [netlify/netlify-commerce](https://github.com/netlify/netlify-commerce): 0.50 MB<br/>  (0.30 MB git / 0.19 MB code)
+- [markbates/pop](https://github.com/markbates/pop): 0.49 MB<br/>  (0.31 MB git / 0.18 MB code)
+- [monzo/typhon](https://github.com/monzo/typhon): 0.46 MB<br/>  (0.41 MB git / 0.05 MB code)
+- [vladimirvivien/automi](https://github.com/vladimirvivien/automi): 0.32 MB<br/>  (0.24 MB git / 0.08 MB code)
+- [runeasymail/ManagementAPI](https://github.com/runeasymail/ManagementAPI): 0.06 MB<br/>  (0.04 MB git / 0.01 MB code)
+<!-- /SIZE_LIST -->
