@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strconv"
 )
@@ -14,10 +15,9 @@ func main() {
 }
 
 func topLevel() {
-	matched, err := filepath.Glob("src/*")
-	check(err)
+	folders := getGitRepos("src/")
 	repos := []repo{}
-	for _, f := range matched {
+	for _, f := range folders {
 		if isDir(f) {
 			repo := newRepoForPath(f)
 			repos = append(repos, repo)
@@ -78,6 +78,22 @@ func DirSizeMB(path string) float64 {
 	filepath.Walk(path, readSize)
 	sizeMB := float64(dirSize) / 1024.0 / 1024.0
 	return sizeMB
+}
+
+func getGitRepos(path string) []string {
+	repos := []string{}
+	r := regexp.MustCompile("/.git$")
+
+	findRepos := func(path string, file os.FileInfo, err error) error {
+		if file.IsDir() && file.Name() == ".git" {
+			newpath := r.ReplaceAllString(path, "")
+			repos = append(repos, newpath)
+		}
+		return nil
+	}
+
+	filepath.Walk(path, findRepos)
+	return repos
 }
 
 func isDir(filePath string) bool {
