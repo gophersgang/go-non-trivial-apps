@@ -103,8 +103,8 @@ func (r *repo) projectName() string {
 
 // full path to repo folder
 func (r *repo) fullPath() string {
-	a := []string{"src", r.projectName()}
-	return strings.Join(a, "/")
+	parts := strings.SplitN(r.url, "github.com/", 2)
+	return "src/github.com/" + parts[1]
 }
 
 /*****************************************************************
