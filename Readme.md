@@ -19,7 +19,7 @@ The main purpose is reading / learning / teaching.
 <!-- PROJECTS_LIST -->
 - [asynkronit/protoactor-go](https://github.com/asynkronit/protoactor-go) - Proto Actor - Ultra fast distributed actors for Golang and C# <br/> ( 2017-02-26 / 889 commits / 82 stars )
 - [caicloud/cyclone](https://github.com/caicloud/cyclone) - A cloud native CI/CD platform built for container workflow <br/> ( 2017-03-03 / 213 commits / 55 stars )
-- [cgrates/cgrates](https://github.com/cgrates/cgrates) - Real-time Charging System for Telecom & ISP environments <br/> ( 2017-03-08 / 5,343 commits / 57 stars )
+- [cgrates/cgrates](https://github.com/cgrates/cgrates) - Real-time Charging System for Telecom & ISP environments <br/> ( 2017-03-09 / 5,345 commits / 57 stars )
 - [cloudnativego/gogo-service](https://github.com/cloudnativego/gogo-service) - A microservice that allows clients to play the game of Go <br/> ( 2016-05-24 / 77 commits / 3 stars )
 - [corestoreio/csfw](https://github.com/corestoreio/csfw) - CoreStore eCommerce library written in GoLang based on Magento's database structure. Compatible to Magento 1 and 2 | ⚠️ Under full development. DON'T test it! ⚠️ | My magnum opus <br/> ( 2017-03-07 / 1,967 commits / 14 stars )
 - [crevax/elysium](https://github.com/crevax/elysium) - The API that powers my personal website <br/> ( 2016-12-18 / 41 commits / 0 stars )
@@ -43,12 +43,15 @@ The main purpose is reading / learning / teaching.
 - [romana/core](https://github.com/romana/core) - Micro services written in Go. <br/> ( 2017-03-08 / 1,200 commits / 6 stars )
 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi) - --- <br/> ( 2017-03-08 / 13 commits / 0 stars )
 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace) - Golang Hosting Solution with CloudFormation and CodeDeploy <br/> ( 2017-03-09 / 128 commits / 3 stars )
+- [verizondigital/vflow](https://github.com/verizondigital/vflow) -  Enterprise Network Flow Collector (IPFIX + sFlow) <br/> ( 2017-03-09 / 309 commits / 4 stars )
 - [vladimirvivien/automi](https://github.com/vladimirvivien/automi) - Composable Stream Processing on top of Go Channels! <br/> ( 2016-12-28 / 140 commits / 17 stars )
 - [yolofy/bulbtransit](https://github.com/yolofy/bulbtransit) - Hackathon management software <br/> ( 2015-11-15 / 8 commits / 0 stars )
 <!-- /PROJECTS_LIST -->
 
 ### By Activity
 <!-- ACTIVITY_LIST -->
+- [verizondigital/vflow](https://github.com/verizondigital/vflow): 2017-03-09 <br/>  Enterprise Network Flow Collector (IPFIX + sFlow)
+- [cgrates/cgrates](https://github.com/cgrates/cgrates): 2017-03-09 <br/> Real-time Charging System for Telecom & ISP environments
 - [grafana/grafana](https://github.com/grafana/grafana): 2017-03-09 <br/> The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More
 - [peakgames/s5cmd](https://github.com/peakgames/s5cmd): 2017-03-09 <br/> Parallel S3 and local filesystem execution tool.
 - [skarlso/go-furnace](https://github.com/skarlso/go-furnace): 2017-03-09 <br/> Golang Hosting Solution with CloudFormation and CodeDeploy
@@ -56,7 +59,6 @@ The main purpose is reading / learning / teaching.
 - [runeasymail/managementapi](https://github.com/runeasymail/managementapi): 2017-03-08 <br/> ---
 - [muesli/beehive](https://github.com/muesli/beehive): 2017-03-08 <br/> A flexible event and agent system with lots of bees 🐝
 - [diyan/assimilator](https://github.com/diyan/assimilator): 2017-03-08 <br/> WIP. An attempt to port minimum valuable subset of Sentry from Python to the Golang
-- [cgrates/cgrates](https://github.com/cgrates/cgrates): 2017-03-08 <br/> Real-time Charging System for Telecom & ISP environments
 - [romana/core](https://github.com/romana/core): 2017-03-08 <br/> Micro services written in Go.
 - [corestoreio/csfw](https://github.com/corestoreio/csfw): 2017-03-07 <br/> CoreStore eCommerce library written in GoLang based on Magento's database structure. Compatible to Magento 1 and 2 | ⚠️ Under full development. DON'T test it! ⚠️ | My magnum opus
 - [humpback/humpback-center](https://github.com/humpback/humpback-center): 2017-03-07 <br/> humpback backend docker-engine cluster manage.
@@ -81,12 +83,12 @@ The main purpose is reading / learning / teaching.
 
 ### By Size
 <!-- SIZE_LIST -->
-- [grafana/grafana](https://github.com/grafana/grafana): 137.57 MB<br/>  (106.14 MB git / 31.43 MB code)
+- [grafana/grafana](https://github.com/grafana/grafana): 137.58 MB<br/>  (106.15 MB git / 31.43 MB code)
 - [DuoSoftware/v6engine](https://github.com/DuoSoftware/v6engine): 96.18 MB<br/>  (81.75 MB git / 14.44 MB code)
 - [insionng/zenpress](https://github.com/insionng/zenpress): 89.47 MB<br/>  (32.34 MB git / 57.13 MB code)
 - [caicloud/cyclone](https://github.com/caicloud/cyclone): 51.92 MB<br/>  (19.11 MB git / 32.81 MB code)
 - [corestoreio/csfw](https://github.com/corestoreio/csfw): 50.99 MB<br/>  (12.89 MB git / 38.11 MB code)
-- [cgrates/cgrates](https://github.com/cgrates/cgrates): 31.14 MB<br/>  (26.33 MB git / 4.80 MB code)
+- [cgrates/cgrates](https://github.com/cgrates/cgrates): 31.17 MB<br/>  (26.36 MB git / 4.80 MB code)
 - [AsynkronIT/protoactor-go](https://github.com/AsynkronIT/protoactor-go): 14.71 MB<br/>  (14.14 MB git / 0.58 MB code)
 - [diyan/assimilator](https://github.com/diyan/assimilator): 14.51 MB<br/>  (3.44 MB git / 11.07 MB code)
 - [NebulousLabs/Sia](https://github.com/NebulousLabs/Sia): 14.25 MB<br/>  (11.60 MB git / 2.65 MB code)
@@ -100,6 +102,7 @@ The main purpose is reading / learning / teaching.
 - [romana/core](https://github.com/romana/core): 2.64 MB<br/>  (1.79 MB git / 0.85 MB code)
 - [Skarlso/go-furnace](https://github.com/Skarlso/go-furnace): 2.56 MB<br/>  (2.07 MB git / 0.50 MB code)
 - [ory/ladon](https://github.com/ory/ladon): 1.15 MB<br/>  (1.02 MB git / 0.13 MB code)
+- [VerizonDigital/vflow](https://github.com/VerizonDigital/vflow): 0.95 MB<br/>  (0.51 MB git / 0.44 MB code)
 - [erraroo/erraroo](https://github.com/erraroo/erraroo): 0.84 MB<br/>  (0.31 MB git / 0.53 MB code)
 - [menklab/goCMS](https://github.com/menklab/goCMS): 0.58 MB<br/>  (0.47 MB git / 0.11 MB code)
 - [digitalocean/godo](https://github.com/digitalocean/godo): 0.55 MB<br/>  (0.29 MB git / 0.26 MB code)
