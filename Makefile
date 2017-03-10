@@ -8,5 +8,7 @@ crawl:
 stats:
 	go run go/stats/main.go
 
+sort:
+	ruby go/sort.rb
 
-all: run crawl stats;
+all: sort run crawl stats;
