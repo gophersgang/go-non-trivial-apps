@@ -5,6 +5,7 @@ content = File
   .map(&:downcase)
   .map(&:strip)
   .sort
+  .uniq
   .reject{|x| x == ""}
   .join("\n")
 

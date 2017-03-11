@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"os/exec"
 	"strings"
@@ -11,6 +12,15 @@ import (
 
 func check(e error) {
 	if e != nil {
+		log.Println(e)
+		panic(e)
+	}
+}
+
+func checkMsg(e error, msg string) {
+	if e != nil {
+		log.Println(msg)
+		log.Println(e)
 		panic(e)
 	}
 }
@@ -68,7 +78,7 @@ func (r *repo) checkout() error {
 	fmt.Printf("checking out %s\n", r.fullPath())
 	cmd := fmt.Sprintf("git clone %s %s", r.url, r.fullPath())
 	out, err := exec.Command("sh", "-c", cmd).Output()
-	check(err)
+	checkMsg(err, "For "+r.url)
 	fmt.Println(r.projectName(), "\n---\n", string(out))
 	return nil
 }
@@ -78,7 +88,7 @@ func (r *repo) refresh() error {
 	fmt.Printf("refreshing %s\n", r.fullPath())
 	cmd := fmt.Sprintf("cd %s; git pull", r.fullPath())
 	out, err := exec.Command("sh", "-c", cmd).Output()
-	check(err)
+	checkMsg(err, r.url)
 	fmt.Println(r.projectName(), "\n---\n", string(out))
 	return nil
 }
