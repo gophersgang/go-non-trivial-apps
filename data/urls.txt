@@ -13,6 +13,7 @@ https://github.com/gopherpit/gopherpit
 https://github.com/grafana/grafana
 https://github.com/humpback/humpback-center
 https://github.com/insionng/zenpress
+https://github.com/jaracil/nexus
 https://github.com/jjosephy/interview
 https://github.com/markbates/pop
 https://github.com/menklab/gocms
@@ -20,8 +21,10 @@ https://github.com/monzo/typhon
 https://github.com/muesli/beehive
 https://github.com/nebulouslabs/sia
 https://github.com/netlify/netlify-commerce
+https://github.com/openbazaar/openbazaar-go
 https://github.com/ory/ladon
 https://github.com/peakgames/s5cmd
+https://github.com/restic/restic
 https://github.com/romana/core
 https://github.com/runeasymail/managementapi
 https://github.com/skarlso/go-furnace
