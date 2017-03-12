@@ -3,6 +3,7 @@ https://github.com/asynkronit/protoactor-go
 https://github.com/caicloud/cyclone
 https://github.com/cgrates/cgrates
 https://github.com/cloudnativego/gogo-service
+https://github.com/codingsince1985/geo-golang
 https://github.com/corestoreio/csfw
 https://github.com/crevax/elysium
 https://github.com/digitalocean/godo
@@ -10,11 +11,13 @@ https://github.com/diyan/assimilator
 https://github.com/duosoftware/v6engine
 https://github.com/erraroo/erraroo
 https://github.com/gopherpit/gopherpit
+https://github.com/gophish/gophish
 https://github.com/grafana/grafana
 https://github.com/humpback/humpback-center
 https://github.com/insionng/zenpress
 https://github.com/jaracil/nexus
 https://github.com/jjosephy/interview
+https://github.com/mantishk/galore
 https://github.com/markbates/pop
 https://github.com/menklab/gocms
 https://github.com/monzo/typhon
