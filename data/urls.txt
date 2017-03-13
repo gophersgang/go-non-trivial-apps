@@ -31,6 +31,7 @@ https://github.com/restic/restic
 https://github.com/romana/core
 https://github.com/runeasymail/managementapi
 https://github.com/skarlso/go-furnace
+https://github.com/supergiant/supergiant
 https://github.com/tockins/realize
 https://github.com/verizondigital/vflow
 https://github.com/vladimirvivien/automi
