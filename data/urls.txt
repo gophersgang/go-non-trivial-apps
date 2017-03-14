@@ -20,6 +20,7 @@ https://github.com/jjosephy/interview
 https://github.com/mantishk/galore
 https://github.com/markbates/pop
 https://github.com/menklab/gocms
+https://github.com/micromdm/micromdm
 https://github.com/monzo/typhon
 https://github.com/muesli/beehive
 https://github.com/nebulouslabs/sia
