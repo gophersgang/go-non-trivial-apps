@@ -1,3 +1,4 @@
+http://github.com/uber/jaeger
 https://github.com/abcum/syncr
 https://github.com/asynkronit/protoactor-go
 https://github.com/caicloud/cyclone
